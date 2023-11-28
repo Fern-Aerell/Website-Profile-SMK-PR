@@ -206,20 +206,25 @@ button:active {
 }
 
 @media screen and (min-width: 1440px) {
-  .contact-form > h1 {
+  .contact-form {
+    flex: 1;
+  }
 
+  .mapouter {
+    flex: 2;
+  }
+
+  .contact-form > h1 {
     font-size: 1.5rem;
   }
 
   .contact-form > form {
-
     width: 70%;
   }
 }
 
 @media screen and (min-width: 2560px) {
   .contact-form > h1 {
-
     font-size: 2rem;
   }
 

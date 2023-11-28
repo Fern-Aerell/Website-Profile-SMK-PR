@@ -73,17 +73,25 @@ const facilityData = [
 
 <template>
   <NavbarElement :logo="logo_image_svg" title="SMK PR" :list="navbarButtonData"></NavbarElement>
+
   <HeaderElement id="home" title="PEKANBARU RAVENGERS" moto="Sekolah Unggulan, Generasi Penerus Hebat Banget" :social_media_data="socialMediaData"></HeaderElement>
+
   <HistoryElement id="sejarah" :data="historyData"></HistoryElement>
+
   <VisionAndMissionElement id="visidanmisi" title="VISI DAN MISI" :text="'Menjadi pusat pendidikan kejuruan yang unggul, berorientasi pada teknologi, dan berkomitmen untuk menciptakan lulusan yang siap bersaing di dunia kerja global.'" :list="['Memberikan Pendidikan Berkualitas','Mengembangkan Keahlian Kejuruan','Pemberdayaan Siswa','Kemitraan Industri','Pengembangan Karakter','Pengembangan Potensi Diri','Penggunaan Teknologi','Kesetaraan Kesempatan','Ketahanan Terhadap Perubahan','Kontribusi Terhadap Kemajuan Masyarakat']"></VisionAndMissionElement>
+
   <MajorElement id="jurusan" title="JURUSAN">
     <MajorCard title="ANIMASI" :icon="animation_icon_image_webp" description="Jurusan ini mempelajari dan mendalami cara-cara dan teknik pembuatan animasi, melibatkan penciptaan gambar bergerak yang dapat digunakan dalam berbagai konteks, dan media digital lainnya."></MajorCard>
     <MajorCard title="DKV" :icon="illustration_icon_image_webp" description="Jurusan ini mempelajari dan mendalami cara-cara merancang pesan visual yang efektif, memahami prinsip desain, dan menguasai alat-alat desain seperti perangkat lunak grafis, fotografi, dan seni digital."></MajorCard>
     <MajorCard title="PPLG" :icon="programmer_icon_image_webp" description="Jurusan ini mempelajari dan mendalami cara-cara mengembangkan perangkat lunak. Mulai dari pembuatan, pemeliharaan, manajemen kualitas, dan manajemen organisasi pengembangan perangkat lunak."></MajorCard>
   </MajorElement>
-  <FacilityElement id="fasilitas" title="FASILITAS SEKOLAH" :data="facilityData"></FacilityElement>
+
+  <!-- <FacilityElement id="fasilitas" title="FASILITAS SEKOLAH" :data="facilityData"></FacilityElement> -->
+
   <RegisterElement id="pendaftaran"></RegisterElement>
+
   <ContactElement id="kontak" location="pekanbaru" :zoom="15"></ContactElement>
+
   <FooterElement id="footer">
     <template v-slot:top>
       <FooterLogo
@@ -108,6 +116,7 @@ const facilityData = [
       />
     </template>
   </FooterElement>
+
 </template>
 
 <style scoped></style>
