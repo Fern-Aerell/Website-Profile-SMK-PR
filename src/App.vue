@@ -34,6 +34,7 @@ import FooterCopyright from './app/components/footers/FooterCopyright.vue';
 import FooterList from './app/components/footers/FooterList.vue';
 import FooterLogo from './app/components/footers/FooterLogo.vue';
 import FacilityElement from './app/components/FacilityElement.vue';
+import ScrollTopButton from './app/components/ScrollTopButton.vue';
 
 import NavbarButtonModel from './app/models/NavbarButtonModel';
 import SocialMediaModel from './app/models/SocialMediaModel';
@@ -72,6 +73,9 @@ const facilityData = [
 </script>
 
 <template>
+
+  <ScrollTopButton></ScrollTopButton>
+
   <NavbarElement :logo="logo_image_svg" title="SMK PR" :list="navbarButtonData"></NavbarElement>
 
   <HeaderElement id="home" title="PEKANBARU RAVENGERS" moto="Sekolah Unggulan, Generasi Penerus Hebat Banget" :social_media_data="socialMediaData"></HeaderElement>
@@ -90,7 +94,7 @@ const facilityData = [
 
   <RegisterElement id="pendaftaran"></RegisterElement>
 
-  <ContactElement id="kontak" location="pekanbaru" :zoom="15"></ContactElement>
+  <ContactElement id="kontak" location="jakarta" :zoom="15"></ContactElement>
 
   <FooterElement id="footer">
     <template v-slot:top>
