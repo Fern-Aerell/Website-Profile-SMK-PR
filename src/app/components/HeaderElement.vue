@@ -57,7 +57,7 @@ onUnmounted(() => {
                 <h1>{{ title }}</h1>
                 <p>"{{ moto }}"</p>
                 <div class="social-media-content">
-                    <a v-for="(item, index) in social_media_data" :href="item.link" :key="index">
+                    <a v-for="(item, index) in social_media_data" :href="item.link" :key="index" target="_blank">
                         <img  :src="(blackIcon) ? item.black_icon : item.icon" :alt="item.name">
                     </a>
                 </div>

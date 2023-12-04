@@ -51,10 +51,10 @@ const navbarButtonData =[
 ];
 
 const socialMediaData =[
-  new SocialMediaModel("instagram","",instagram_icon_image_webp,instagram_black_icon_image_webp),
-  new SocialMediaModel("twitter","",twitter_icon_image_webp,twitter_black_icon_image_webp),
-  new SocialMediaModel("facebook","",facebook_icon_image_webp,facebook_black_icon_image_webp),
-  new SocialMediaModel("github","",github_icon_image_webp,github_black_icon_image_webp),
+  new SocialMediaModel("instagram","https://www.instagram.com",instagram_icon_image_webp,instagram_black_icon_image_webp),
+  new SocialMediaModel("twitter","https://twitter.com",twitter_icon_image_webp,twitter_black_icon_image_webp),
+  new SocialMediaModel("facebook","https://www.facebook.com",facebook_icon_image_webp,facebook_black_icon_image_webp),
+  new SocialMediaModel("github","https://github.com/Fern-Aerell/Website-Profile-SMK-PR",github_icon_image_webp,github_black_icon_image_webp),
 ];
 
 const historyData =[
@@ -90,7 +90,7 @@ const facilityData = [
     <MajorCard title="PPLG" :icon="programmer_icon_image_webp" description="Jurusan ini mempelajari dan mendalami cara-cara mengembangkan perangkat lunak. Mulai dari pembuatan, pemeliharaan, manajemen kualitas, dan manajemen organisasi pengembangan perangkat lunak."></MajorCard>
   </MajorElement>
 
-  <!-- <FacilityElement id="fasilitas" title="FASILITAS SEKOLAH" :data="facilityData"></FacilityElement> -->
+  <FacilityElement id="fasilitas" title="FASILITAS SEKOLAH" :data="facilityData"></FacilityElement>
 
   <RegisterElement id="pendaftaran"></RegisterElement>
 
