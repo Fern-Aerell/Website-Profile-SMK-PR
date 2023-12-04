@@ -1,19 +1,16 @@
 <script setup lang="ts">
-
 import { ref } from 'vue';
 
-defineProps(
-  {
-    location: {
-      type: String,
-      required: true
-    },
-    zoom: {
-      type: Number,
-      required: true
-    }
+defineProps({
+  location: {
+    type: String,
+    required: true
+  },
+  zoom: {
+    type: Number,
+    required: true
   }
-);
+});
 
 const name = ref('');
 const message = ref('');
@@ -22,7 +19,6 @@ function send() {
   const url = `https://api.whatsapp.com/send?phone=6282268695747&text=Halo%20saya%20${name.value}%2C%20${message.value}`;
   window.open(url, '_blank');
 }
-
 </script>
 
 <template>
@@ -36,14 +32,21 @@ function send() {
         </div>
         <div>
           <label for="message">Pesan</label>
-          <textarea name="message" id="message" cols="0" rows="0" v-model="message" required></textarea>
+          <textarea
+            name="message"
+            id="message"
+            cols="0"
+            rows="0"
+            v-model="message"
+            required
+          ></textarea>
         </div>
         <button type="submit">KIRIM VIA WHATSAPP</button>
       </form>
     </div>
     <div class="mapouter">
       <h1>LOKASI</h1>
-      <br>
+      <br />
       <div class="gmap_canvas">
         <iframe
           class="gmap_iframe"
@@ -175,7 +178,6 @@ button:active {
     flex-direction: row;
   }
   .contact-form > form {
-
     width: 85%;
   }
   .contact-form {
@@ -189,20 +191,18 @@ button:active {
     justify-content: center;
     padding: 0rem;
   }
-  
-  .gmap_canvas {
 
+  .gmap_canvas {
     height: 100%;
     border-radius: 0rem;
   }
   .gmap_iframe {
-
     height: 100% !important;
     border-radius: 0rem;
   }
 
-  .mapouter > h1, .mapouter > br {
-
+  .mapouter > h1,
+  .mapouter > br {
     display: none;
   }
 }
@@ -235,23 +235,19 @@ button:active {
   }
 
   button {
-
     font-size: 1.5rem;
     padding: 1rem;
   }
 
   .contact-form > form > div > input {
-
     padding: 1rem;
     font-size: 1.5rem;
   }
 
   .contact-form > form > div > textarea {
-
     height: 15rem;
     padding: 1rem;
     font-size: 1.5rem;
   }
 }
-
 </style>

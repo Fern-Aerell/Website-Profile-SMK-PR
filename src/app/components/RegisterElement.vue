@@ -1,12 +1,10 @@
 <script setup lang="ts">
-
 defineProps({
   id: {
-      type: String,
-      required: true
-  },
+    type: String,
+    required: true
+  }
 });
-
 </script>
 
 <template>
@@ -45,39 +43,31 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-
   h1 {
-
     font-size: 1.3rem;
   }
 
   p {
-
     font-size: 0.8rem;
   }
-  
 }
 
 @media screen and (min-width: 1440px) {
   h1 {
-
     font-size: 1.5rem;
   }
 
   p {
-
     font-size: 1rem;
   }
 }
 
 @media screen and (min-width: 2560px) {
   h1 {
-
     font-size: 2rem;
   }
 
   p {
-
     font-size: 1.2rem;
   }
 }

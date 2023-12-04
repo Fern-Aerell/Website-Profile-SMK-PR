@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 defineProps({
   title: {
     required: true,
@@ -10,7 +9,6 @@ defineProps({
     type: Array<String>
   }
 });
-
 </script>
 
 <template>

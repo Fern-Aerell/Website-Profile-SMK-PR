@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 defineProps({
   year: {
     type: String,
@@ -14,7 +13,6 @@ defineProps({
     required: true
   }
 });
-
 </script>
 
 <template>
@@ -24,7 +22,6 @@ defineProps({
 </template>
 
 <style scoped>
-
 .footer-copyright {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -50,7 +47,6 @@ defineProps({
     padding-top: 6rem;
   }
   .footer-copyright > p {
-
     font-size: 1.3rem;
   }
 }

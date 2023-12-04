@@ -1,6 +1,5 @@
 <script setup lang="ts">
-
-import {register} from 'swiper/element-bundle';
+import { register } from 'swiper/element-bundle';
 import type HistoryCardModel from '../models/HistoryCardModel';
 
 defineProps({
@@ -13,13 +12,12 @@ defineProps({
     required: true
   },
   duration: {
-      type: Number,
-      default: 10000
+    type: Number,
+    default: 10000
   }
 });
 
 register();
-
 </script>
 
 <template>
@@ -27,18 +25,30 @@ register();
   <div class="history-container">
     <h1>SEJARAH SEKOLAH</h1>
     <div>
-      <swiper-container :loop="true" :slides-per-view="1" :autoplay="{delay: duration}" :pagination="{}" grab-cursor="true">
+      <swiper-container
+        :loop="true"
+        :slides-per-view="1"
+        :autoplay="{ delay: duration }"
+        :pagination="{}"
+        grab-cursor="true"
+      >
         <swiper-slide v-for="(item, index) in data" :key="index">
-            <div class="history-card-container">
-                <img :src="item.image" alt="image">
-                <br>
-                <div class="history-card">
-                    <h2>{{ item.title }}:</h2>
-                    <div class="history-card-story">
-                        <p v-for="(description_item, description_index) in item.description" class="fs-normal lh-normal fw-400 m-0" :key="description_index">{{ description_item }}</p>
-                    </div>
-                </div>
+          <div class="history-card-container">
+            <img :src="item.image" alt="image" />
+            <br />
+            <div class="history-card">
+              <h2>{{ item.title }}:</h2>
+              <div class="history-card-story">
+                <p
+                  v-for="(description_item, description_index) in item.description"
+                  class="fs-normal lh-normal fw-400 m-0"
+                  :key="description_index"
+                >
+                  {{ description_item }}
+                </p>
+              </div>
             </div>
+          </div>
         </swiper-slide>
       </swiper-container>
     </div>
@@ -58,7 +68,7 @@ register();
   padding: 5rem 0rem;
   background-color: white;
   box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.25);
-  --swiper-pagination-color: #E94A4A;
+  --swiper-pagination-color: #e94a4a;
 }
 
 .history-container > h1 {
@@ -75,26 +85,26 @@ register();
   padding: 5rem 1.5rem;
 }
 
-.history-card-container  > div > h2 {
-    padding: 0.5rem;
-    display: inline;
-    font-size: 0.8rem;
-    background-color: #E94A4A;
-    color: white;
-    border-radius: 0.5rem;
+.history-card-container > div > h2 {
+  padding: 0.5rem;
+  display: inline;
+  font-size: 0.8rem;
+  background-color: #e94a4a;
+  color: white;
+  border-radius: 0.5rem;
 }
 
-.history-card-container  > div > div {
-    gap: 1rem;
+.history-card-container > div > div {
+  gap: 1rem;
 }
 
-.history-card-container  > div > div > p {
-    font-size: 0.8rem;
+.history-card-container > div > div > p {
+  font-size: 0.8rem;
 }
 
 .history-card-container > img {
-   width: 100%;
-   border-radius: 0.5rem;
+  width: 100%;
+  border-radius: 0.5rem;
 }
 
 .history-card {
@@ -111,10 +121,10 @@ register();
 }
 
 .history-card-story {
-    height: 10rem;
-    display: flex;
-    flex-direction: column;
-    overflow: scroll;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
 }
 
 @media screen and (min-width: 768px) {
@@ -126,13 +136,13 @@ register();
   .history-card-container > img {
     flex: 1;
     width: 50%;
-    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.40);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.4);
   }
   .history-card {
     flex: 1;
   }
 
-  .history-card-container  > div > h2 {
+  .history-card-container > div > h2 {
     width: fit-content;
   }
 
@@ -140,10 +150,9 @@ register();
     height: auto;
   }
 
-  .history-card-container  > div > div > p {
-
-      font-size: 0.9rem;
-  }  
+  .history-card-container > div > div > p {
+    font-size: 0.9rem;
+  }
   .history-card-container {
     padding: 3rem;
   }
@@ -157,13 +166,12 @@ register();
   .history-container {
     padding: 5rem;
   }
-  .history-card-container  > div > h2 {
+  .history-card-container > div > h2 {
     font-size: 0.9rem;
   }
-  .history-card-container  > div > div > p {
-
-      font-size: 1rem;
-  } 
+  .history-card-container > div > div > p {
+    font-size: 1rem;
+  }
   .history-card-container {
     gap: 1rem;
   }
@@ -179,13 +187,12 @@ register();
   .history-container > h1 {
     font-size: 1.5rem;
   }
-  .history-card-container  > div > h2 {
+  .history-card-container > div > h2 {
     font-size: 1rem;
   }
-  .history-card-container  > div > div > p {
-
-      font-size: 1.2rem;
-  } 
+  .history-card-container > div > div > p {
+    font-size: 1.2rem;
+  }
   .history-card-container {
     gap: 2rem;
   }
@@ -201,16 +208,14 @@ register();
   .history-card-container {
     padding: 7rem;
   }
-  .history-card-container  > div > h2 {
+  .history-card-container > div > h2 {
     font-size: 1.5rem;
   }
-  .history-card-container  > div > div > p {
-
-      font-size: 1.8rem;
-  } 
+  .history-card-container > div > div > p {
+    font-size: 1.8rem;
+  }
   .history-card-container {
     gap: 3rem;
   }
 }
-
 </style>

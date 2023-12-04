@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 defineProps({
   logo: {
     type: String,
@@ -14,7 +13,6 @@ defineProps({
     required: true
   }
 });
-
 </script>
 
 <template>
