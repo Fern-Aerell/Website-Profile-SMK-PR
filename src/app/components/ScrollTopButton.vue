@@ -31,7 +31,7 @@ onUnmounted(() => {
     z-index: 3;
     right: 0.5rem;
     bottom: 0.5rem;
-    width: 4rem;
+    width: 3.5rem;
 }
 
 .scroll-top-button-image:hover {
@@ -40,9 +40,30 @@ onUnmounted(() => {
 
 @media screen and (min-width: 375px) {
     .scroll-top-button-image {
-        right: 0.5rem;
-        bottom: 0.5rem;
         width: 4.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .scroll-top-button-image {
+        right: 1rem;
+        bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .scroll-top-button-image {
+        right: 1.5rem;
+        bottom: 1.5rem;
+        width: 5rem;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .scroll-top-button-image {
+        right: 2rem;
+        bottom: 2rem;
+        width: 7rem;
     }
 }
 </style>

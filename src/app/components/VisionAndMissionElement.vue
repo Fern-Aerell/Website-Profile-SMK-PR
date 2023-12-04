@@ -158,6 +158,15 @@ defineProps({
 }
 
 @media screen and (min-width: 768px) {
+    .visionandmission-model {
+        width: 22rem;
+        right: -2vw;
+    }
+
+    .visionandmission-model-shadow {
+        width: 22rem;
+        right: -8vw;
+    }
     .visionandmission-container {
 
         padding: 0;
@@ -251,13 +260,13 @@ defineProps({
     }
     .visionandmission-model {
 
-        width: 21rem;
+        width: 24rem;
         right: 5vw;
     }
 
     .visionandmission-model-shadow {
 
-        width: 21rem;
+        width: 24rem;
         right: 2vw;
     }
 
