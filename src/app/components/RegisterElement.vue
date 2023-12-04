@@ -1,15 +1,27 @@
 <script setup lang="ts">
+
+defineProps({
+  id: {
+      type: String,
+      required: true
+  },
+});
+
 </script>
 
 <template>
-  <div>
+  <div class="anchor" :id="id"></div>
+  <div class="register-container">
     <h1>Pendaftaran Belum Dibuka</h1>
     <p>Silakan tunggu pendaftaran dibuka</p>
   </div>
 </template>
 
 <style scoped>
-div {
+.anchor {
+  transform: translateY(-220px);
+}
+.register-container {
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;

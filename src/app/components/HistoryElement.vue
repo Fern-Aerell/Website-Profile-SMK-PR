@@ -1,11 +1,20 @@
 <script setup lang="ts">
+
 import {register} from 'swiper/element-bundle';
 import type HistoryCardModel from '../models/HistoryCardModel';
 
 defineProps({
+  id: {
+    type: String,
+    required: true
+  },
   data: {
     type: Array<HistoryCardModel>,
     required: true
+  },
+  duration: {
+      type: Number,
+      default: 10000
   }
 });
 
@@ -14,10 +23,11 @@ register();
 </script>
 
 <template>
+  <div class="anchor" :id="id"></div>
   <div class="history-container">
     <h1>SEJARAH SEKOLAH</h1>
     <div>
-      <swiper-container :loop="true" :slides-per-view="1" :autoplay="{delay: 10000}" :pagination="{}">
+      <swiper-container :loop="true" :slides-per-view="1" :autoplay="{delay: duration}" :pagination="{}" grab-cursor="true">
         <swiper-slide v-for="(item, index) in data" :key="index">
             <div class="history-card-container">
                 <img :src="item.image" alt="image">
@@ -36,7 +46,9 @@ register();
 </template>
 
 <style scoped>
-
+.anchor {
+  transform: translateY(-30px);
+}
 .history-container {
   font-family: 'Poppins', sans-serif;
   display: flex;

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+
 import { ref } from 'vue';
 
 defineProps(
@@ -66,6 +67,7 @@ function send() {
   overflow: hidden;
   z-index: 2;
   flex-direction: column;
+  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.25);
 }
 
 .contact-form {

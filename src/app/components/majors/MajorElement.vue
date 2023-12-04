@@ -1,6 +1,10 @@
 <script setup lang="ts">
 
 defineProps({
+    id: {
+        type: String,
+        required: true
+    },
     title: {
         type: String,
         required:true
@@ -10,6 +14,7 @@ defineProps({
 </script>
 
 <template>
+    <div class="anchor" :id="id"></div>
     <div class="major-container">
         <h1>{{ title }}</h1>
         <div class="major-content">
@@ -19,6 +24,9 @@ defineProps({
 </template>
 
 <style scoped>
+.anchor {
+  transform: translateY(-200px);
+}
 .major-container {
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -29,6 +37,7 @@ defineProps({
     gap: 3rem;
     padding: 6rem 2rem;
     background-color: white;
+    box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.25);
 }
 
 .major-container > h1 {

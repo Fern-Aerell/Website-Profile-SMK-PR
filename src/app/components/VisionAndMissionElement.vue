@@ -4,6 +4,10 @@ import model_image_webp from '../../../public/assets/images/anime_models/model_m
 import shadow_image_webp from '../../../public/assets/images/anime_models/model_man_01_shadow.webp';
 
 defineProps({
+    id: {
+        type: String,
+        required: true
+    },
     title: {
         type: String,
         required: true
@@ -17,10 +21,10 @@ defineProps({
         required: true
     }
 });
-
 </script>
 
 <template>
+    <div class="anchor" :id="id"></div>
     <div class="visionandmission-container">
         <div class="visionandmission-model-container">
             <img id="visionandmission_model" class="visionandmission-model-shadow" :src="shadow_image_webp" alt="shadow">
@@ -43,6 +47,9 @@ defineProps({
 </template>
 
 <style scoped>
+.anchor {
+  transform: translateY(-110px);
+}
 .visionandmission-container {
     font-family: 'Poppins', sans-serif;
     display: flex;

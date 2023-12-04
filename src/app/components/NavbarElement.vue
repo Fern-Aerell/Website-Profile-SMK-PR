@@ -68,10 +68,10 @@ onUnmounted(() => {
 
 <template>
     <div class="navbar-container">
-        <div class="navbar-logo-title-container">
+        <a href="" class="navbar-logo-title-container">
             <img :src="logo" alt="logo">
             <h1>{{ title }}</h1>
-        </div>
+        </a>
         <div class="navbar-list-button-dehaze">
             <img :src="dehaze_icon_image_webp" alt="dehaze icon">
         </div>
@@ -101,6 +101,8 @@ onUnmounted(() => {
     flex-direction: row;
     align-items: center;
     gap: 0.3rem;
+    text-decoration: none;
+    color: black;
 }
 .navbar-logo-title-container > img {
     width: 2.5rem;
