@@ -2,6 +2,9 @@
 
 SMK PR adalah website profil yang informatif dan menarik untuk Sekolah Menengah Kejuruan PR. Website ini dirancang untuk memberikan informasi kepada siswa, orang tua, dan calon siswa tentang berbagai aspek sekolah, termasuk program pendidikan, fasilitas, kegiatan.
 
+
+Demo nya bisa cek disini : [Website SMK PR](https://aerellsmk.github.io/project/smk_pr/index.html)
+
 ## Anggota Tim
 
 1. Aerell
