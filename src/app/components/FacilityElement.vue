@@ -100,7 +100,6 @@ defineProps({
   padding: 3rem 1rem;
   flex-direction: column;
   gap: 1rem;
-  backdrop-filter: blur(2px);
 }
 .facility-content-body > img {
   width: 100%;
