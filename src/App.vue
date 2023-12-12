@@ -186,7 +186,7 @@ const facilityData = [
 
   <RegisterElement id="pendaftaran"></RegisterElement>
 
-  <ContactElement id="kontak" location="jakarta" :zoom="15"></ContactElement>
+  <ContactElement id="kontak" location="pekanbaru" :zoom="15"></ContactElement>
 
   <FooterElement id="footer">
     <template v-slot:top>

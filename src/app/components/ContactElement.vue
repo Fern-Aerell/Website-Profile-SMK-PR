@@ -28,7 +28,7 @@ function send() {
       <form @submit.prevent="send" autocomplete="on">
         <div>
           <label for="name">Nama</label>
-          <input type="text" name="name" id="name" v-model="name" required />
+          <input type="text" name="name" id="name" v-model="name" autocomplete="name" required />
         </div>
         <div>
           <label for="message">Pesan</label>
@@ -38,6 +38,7 @@ function send() {
             cols="0"
             rows="0"
             v-model="message"
+            autocomplete="on"
             required
           ></textarea>
         </div>
@@ -50,6 +51,7 @@ function send() {
       <div class="gmap_canvas">
         <iframe
           class="gmap_iframe"
+          title="gmap"
           width="100%"
           frameborder="0"
           scrolling="no"

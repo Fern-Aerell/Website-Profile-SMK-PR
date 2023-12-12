@@ -37,7 +37,7 @@ register();
             <img :src="item.image" alt="image" />
             <br />
             <div class="history-card">
-              <h2>{{ item.title }}:</h2>
+              <h1>{{ item.title }}:</h1>
               <div class="history-card-story">
                 <p
                   v-for="(description_item, description_index) in item.description"
@@ -85,12 +85,12 @@ register();
   padding: 5rem 1.5rem;
 }
 
-.history-card-container > div > h2 {
+.history-card-container > div > h1 {
   padding: 0.5rem;
   display: inline;
   font-size: 0.8rem;
   background-color: #e94a4a;
-  color: white;
+  color: #ffffff;
   border-radius: 0.5rem;
 }
 
@@ -113,7 +113,7 @@ register();
   gap: 0.5rem;
 }
 
-.history-card > h2 {
+.history-card > h1 {
   font-style: normal;
   line-height: normal;
   font-weight: 700;
@@ -142,7 +142,7 @@ register();
     flex: 1;
   }
 
-  .history-card-container > div > h2 {
+  .history-card-container > div > h1 {
     width: fit-content;
   }
 
@@ -166,7 +166,7 @@ register();
   .history-container {
     padding: 5rem;
   }
-  .history-card-container > div > h2 {
+  .history-card-container > div > h1 {
     font-size: 0.9rem;
   }
   .history-card-container > div > div > p {
@@ -187,7 +187,7 @@ register();
   .history-container > h1 {
     font-size: 1.5rem;
   }
-  .history-card-container > div > h2 {
+  .history-card-container > div > h1 {
     font-size: 1rem;
   }
   .history-card-container > div > div > p {
@@ -208,7 +208,7 @@ register();
   .history-card-container {
     padding: 7rem;
   }
-  .history-card-container > div > h2 {
+  .history-card-container > div > h1 {
     font-size: 1.5rem;
   }
   .history-card-container > div > div > p {
