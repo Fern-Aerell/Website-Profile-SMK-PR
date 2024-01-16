@@ -75,16 +75,19 @@ Kami menggunakan [Figma](https://www.figma.com/file/KpSN9guhDFCmZuMlSfQWR6/Websi
 
 ## Teknologi yang Digunakan
 
-- HTML
-- CSS
-- JavaScript
-- Node.js
-- Vite
-- Vue.js
-- TypeScript
-- Animated.css
-- Swiper
-- Scrollreveal
+- Frontend
+  - HTML
+  - CSS
+  - JavaScript
+  - Node.js
+  - Vite
+  - Vue.js
+  - TypeScript
+  - Animated.css
+  - Swiper
+- Backend
+  - PHP
+  - Laravel
 
 <br>
 <br>
