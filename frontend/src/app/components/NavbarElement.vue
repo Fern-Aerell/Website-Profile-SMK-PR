@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import dehaze_icon_image_webp from '../../../public/assets/images/icons/dehaze.webp';
+import dehaze_icon_image_webp from '../../../public/images/icons/dehaze.webp';
 import type NavbarButtonModel from '../models/NavbarButtonModel';
 import { onMounted, onUnmounted, ref } from 'vue';
 

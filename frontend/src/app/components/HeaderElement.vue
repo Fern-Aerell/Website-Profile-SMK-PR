@@ -2,10 +2,10 @@
 import type SocialMediaModel from '../models/SocialMediaModel';
 import { onMounted, onUnmounted, ref } from 'vue';
 
-import model_image_webp from '../../../public/assets/images/anime_models/model_woman_01.webp';
-import model_shadow_image_webp from '../../../public/assets/images/anime_models/model_woman_01_shadow.webp';
-import header_bg_image_webp from '../../../public/assets/images/backgrounds/header-bg.webp';
-import pencil_image_webp from '../../../public/assets/images/cursors/pencil.webp';
+import model_image_webp from '../../../public/images/anime_models/model_woman_01.webp';
+import model_shadow_image_webp from '../../../public/images/anime_models/model_woman_01_shadow.webp';
+import header_bg_image_webp from '../../../public/images/backgrounds/header-bg.webp';
+import pencil_image_webp from '../../../public/images/cursors/pencil.webp';
 
 defineProps({
   title: {

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue';
 
-import arrow_up_circle_image_webp from '../../../public/assets/images/icons/arrow_up_circle.webp';
+import arrow_up_circle_image_webp from '../../../public/images/icons/arrow_up_circle.webp';
 
 const scrollTopButtonToggle = ref(false);
 

@@ -25,16 +25,16 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        entryFileNames: 'javascripts/index.js',
+        entryFileNames: 'js/index.js',
         assetFileNames(chunkInfo) {
           if (chunkInfo.name!.endsWith('.css')) {
-            return `assets/css/${chunkInfo.name}`;
+            return `css/${chunkInfo.name}`;
           } else if (chunkInfo.name!.endsWith('.png')) {
-            return `assets/images/png/${chunkInfo.name}`;
+            return `images/png/${chunkInfo.name}`;
           } else if (chunkInfo.name!.endsWith('.svg')) {
-            return `assets/images/svg/${chunkInfo.name}`;
+            return `images/svg/${chunkInfo.name}`;
           } else if (chunkInfo.name!.endsWith('.webp')) {
-            return `assets/images/webp/${chunkInfo.name}`;
+            return `images/webp/${chunkInfo.name}`;
           }
           return chunkInfo.name!;
         }

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import model_image_webp from '../../../public/assets/images/anime_models/model_man_01.webp';
-import shadow_image_webp from '../../../public/assets/images/anime_models/model_man_01_shadow.webp';
+import model_image_webp from '../../../public/images/anime_models/model_man_01.webp';
+import shadow_image_webp from '../../../public/images/anime_models/model_man_01_shadow.webp';
 
 defineProps({
   id: {
