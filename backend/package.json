@@ -6,8 +6,18 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "@tsconfig/node18": "^18.2.2",
+        "@vue/compiler-sfc": "^3.4.21",
         "axios": "^1.6.4",
         "laravel-vite-plugin": "^1.0.0",
+        "ts-loader": "^9.5.1",
+        "typescript": "^5.3.3",
         "vite": "^5.0.0"
+    },
+    "dependencies": {
+        "@vitejs/plugin-vue": "^5.0.4",
+        "@vue/tsconfig": "^0.5.1",
+        "vue": "^3.4.21",
+        "vue-loader": "^17.4.2"
     }
 }
