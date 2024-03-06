@@ -37,8 +37,8 @@ Demo frontend nya bisa cek disini : [Website SMK PR](https://aerellsmk.github.io
   - Angel
 
 ### Backend
-- **Programmer**  
-		- Aerell
+- **Programmer**
+  - Aerell
 
 ## Perencanaan
 
