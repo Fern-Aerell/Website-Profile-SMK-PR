@@ -1,0 +1,39 @@
+{
+    "name": "website-sekolah-pekanbaru-ravengers",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "run-p type-check \"build-only {@}\" --",
+        "preview": "vite preview",
+        "build-only": "vite build",
+        "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false",
+        "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+        "format": "prettier --write resources/"
+    },
+    "devDependencies": {
+        "@rushstack/eslint-patch": "^1.7.2",
+        "@tsconfig/node20": "^20.1.2",
+        "@types/node": "^20.11.24",
+        "@vitejs/plugin-vue": "^5.0.4",
+        "@vue/eslint-config-prettier": "^9.0.0",
+        "@vue/eslint-config-typescript": "^12.0.0",
+        "@vue/tsconfig": "^0.5.1",
+        "axios": "^1.6.7",
+        "dotenv": "^16.4.5",
+        "eslint": "^8.57.0",
+        "eslint-plugin-vue": "^9.22.0",
+        "laravel-vite-plugin": "^1.0.0",
+        "npm-run-all2": "^6.1.2",
+        "prettier": "^3.2.5",
+        "typescript": "^5.3.3",
+        "vite": "^5.0.0",
+        "vue-tsc": "^2.0.5"
+    },
+    "dependencies": {
+        "animate.css": "^4.1.1",
+        "swiper": "^11.0.7",
+        "vue": "^3.4.21"
+    }
+}
