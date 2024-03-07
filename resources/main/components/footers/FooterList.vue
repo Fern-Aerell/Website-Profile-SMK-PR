@@ -14,14 +14,16 @@ defineProps({
 <template>
   <div class="footer-list">
     <h1>{{ title }}</h1>
-    <ul>
-      <div v-if="list.length > 0">
+    <div v-if="list.length > 0">
+      <ul>
         <li v-for="(item, index) in list" :key="index">{{ item }}</li>
-      </div>
-      <div v-else>
+      </ul>
+    </div>
+    <div v-else>
+      <ul>
         <li>Fern Aerell</li>
-      </div>
-    </ul>
+      </ul>
+    </div>
   </div>
 </template>
 

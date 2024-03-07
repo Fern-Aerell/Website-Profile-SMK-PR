@@ -72,7 +72,7 @@ Demo frontend nya bisa cek disini : [Website SMK PR](https://aerellsmk.github.io
 
 ## Domain & Hosting
 - **Domain:** Belum ditentukan
-- **Hosting:** GitHub Pages
+- **Hosting:** Belum ditentukan
 
 ## Desain
 
@@ -93,6 +93,15 @@ Kami menggunakan [Figma](https://www.figma.com/file/KpSN9guhDFCmZuMlSfQWR6/Websi
 - Backend
   - PHP
   - Laravel
+  - Apache
+  - Mysql
+
+## Configurasi
+### Apache Module
+- mod_rewrite
+- mod_deflate
+- mod_filter
+- mod_headers
 
 <br>
 <br>

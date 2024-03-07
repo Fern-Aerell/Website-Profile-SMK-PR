@@ -17,7 +17,7 @@ export default defineConfig({
         laravel({
             input: [
                 'resources/login/ts/login_app.ts',
-                'resources/main/ts/main.ts'
+                'resources/main/ts/main_app.ts'
             ],
             refresh: true,
         }),

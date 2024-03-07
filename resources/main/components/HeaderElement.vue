@@ -70,11 +70,17 @@ onUnmounted(() => {
     </div>
     <div class="model-container animate__animated animate__slideInRight">
       <img
+        fetchpriority="high"
         class="model-shadow model-size"
         :src="model_shadow_image_webp"
         alt="model image shadow"
       />
-      <img class="model model-size" :src="model_image_webp" alt="model image" />
+      <img
+        fetchpriority="high"
+        class="model model-size"
+        :src="model_image_webp"
+        alt="model image"
+      />
     </div>
   </div>
 </template>

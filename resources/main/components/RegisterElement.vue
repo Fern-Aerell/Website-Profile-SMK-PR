@@ -11,8 +11,8 @@ defineProps({
   <div class="anchor" :id="id"></div>
   <div class="register-container">
     <h1>PPDB</h1>
-    <h3>Penerimaan Peserta Didik Baru</h3>
-    <h2>SMK PEKANBARU RAVENGERS</h2>
+    <h2>Penerimaan Peserta Didik Baru</h2>
+    <h3>SMK PEKANBARU RAVENGERS</h3>
     <p>tahun pelajaran 2024/2025</p>
     <br />
     <button disabled>Belum Dibuka</button>

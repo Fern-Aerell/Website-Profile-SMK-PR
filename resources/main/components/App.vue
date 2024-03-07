@@ -16,8 +16,8 @@ import rumah_sakit_image_webp from '@/main/images/backgrounds/rumah_sakit.webp';
 import animation_icon_image_webp from '@/main/images/icons/majors/animasi_icon.webp';
 import illustration_icon_image_webp from '@/main/images/icons/majors/dkv_icon.webp';
 import programmer_icon_image_webp from '@/main/images/icons/majors/pplg_icon.webp';
-import ruangan_kantin_image_webp from '@/main/images/backgrounds/ruangan_kantin.webp';
 import ruangan_kelas_image_webp from '@/main/images/backgrounds/ruangan_kelas.webp';
+import ruangan_kantin_image_webp from '@/main/images/backgrounds/ruangan_kantin.webp';
 import ruangan_lab_image_webp from '@/main/images/backgrounds/ruangan_lab.webp';
 
 import NavbarElement from '@/main/components/NavbarElement.vue';

@@ -1,3 +1,17 @@
+<IfModule mod_deflate.c>
+  # Kompres semua file
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/x-javascript application/json
+
+  # Opsional: Atur level kompresi (1-9, semakin tinggi semakin besar kompresi)
+  # DeflateCompressionLevel 5
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ico|jpg|jpeg|png|gif|svg|css|js|woff|woff2|ttf|eot|webp)\$">
+    Header set Cache-Control "max-age=31536000, public"
+  </FilesMatch>
+</IfModule>
+
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
