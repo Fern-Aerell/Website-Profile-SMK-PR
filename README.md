@@ -1,11 +1,10 @@
 # Website Profile SMK PR (Pekanbaru Ravengers)
 
-SMK PR adalah website profil yang informatif dan menarik untuk Sekolah Menengah Kejuruan PR. Website ini dirancang untuk memberikan informasi kepada siswa, orang tua, dan calon siswa tentang berbagai aspek sekolah, termasuk program pendidikan, fasilitas, kegiatan.
+SMK PR is an informative and engaging profile website for the PR Vocational High School. This website is designed to provide information to students, parents, and prospective students about various aspects of the school, including educational programs, facilities, and activities.
 
+You can check the frontend demo here: [SMK PR Website](https://fern-aerell.github.io/projects/smk_pr/index.html)
 
-Demo frontend nya bisa cek disini : [Website SMK PR](https://aerellsmk.github.io/project/smk_pr/index.html)
-
-## Anggota Tim
+## Team Members
 
 1. Aerell
 2. Azra
@@ -14,22 +13,22 @@ Demo frontend nya bisa cek disini : [Website SMK PR](https://aerellsmk.github.io
 5. Ranny
 6. Angel
 
-## Peran
+## Roles
 
-- **Ketua**
+- **Chairperson**
   - Aerell
 
-- **Pembicara**
+- **Speakers**
   - Aerell
   - Azra
 
 ### Frontend
-- **Desainer Web**
+- **Web Designers**
   - Aerell
   - Eric
   - Azra
 
-- **Programmer**
+- **Programmers**
   - Aerell
   - Eric
   - Iqbal
@@ -40,45 +39,45 @@ Demo frontend nya bisa cek disini : [Website SMK PR](https://aerellsmk.github.io
 - **Programmer**
   - Aerell
 
-## Perencanaan
+## Planning
 
-### Tujuan
-- Tujuan utama proyek ini adalah memperkenalkan sekolah kepada masyarakat umum.
+### Goal
+- The main goal of this project is to introduce the school to the general public.
 
-### Audiens Target
-- Lulusan SMP yang sedang mencari informasi tentang sekolah menengah.
+### Target Audience
+- Junior high school graduates looking for information about high schools.
 
-### Informasi yang Harus Disertakan
+### Information to Include
 - Header
-- Sejarah Sekolah
-- Visi dan Misi
-- Jurusan
-- Fasilitas Sekolah
-- Pendaftaran
-- Kontak Sekolah
+- School History
+- Vision and Mission
+- Departments
+- School Facilities
+- Registration
+- School Contact
 - Footer
 
-### Struktur Halaman
-- Halaman Utama
+### Page Structure
+- Home Page
   - Navbar
   - Header
-  - Sejarah Sekolah
-  - Visi dan Misi
-  - Jurusan
-  - Fasilitas Sekolah
-  - Pendaftaran
-  - Informasi Kontak
+  - School History
+  - Vision and Mission
+  - Departments
+  - School Facilities
+  - Registration
+  - Contact Information
   - Footer
 
 ## Domain & Hosting
-- **Domain:** Belum ditentukan
-- **Hosting:** Belum ditentukan
+- **Domain:** Not yet determined
+- **Hosting:** Not yet determined
 
-## Desain
+## Design
 
-Kami menggunakan [Figma](https://www.figma.com/file/KpSN9guhDFCmZuMlSfQWR6/Website-Profile-Sekolah?type=design&node-id=0%3A1&mode=design&t=bHYX09DfcYTDnayS-1) untuk fase desain.
+We used [Figma](https://www.figma.com/file/KpSN9guhDFCmZuMlSfQWR6/Website-Profile-Sekolah?type=design&node-id=0%3A1&mode=design&t=bHYX09DfcYTDnayS-1) for the design phase.
 
-## Teknologi yang Digunakan
+## Technologies Used
 
 - Frontend
   - HTML
@@ -94,10 +93,10 @@ Kami menggunakan [Figma](https://www.figma.com/file/KpSN9guhDFCmZuMlSfQWR6/Websi
   - PHP
   - Laravel
   - Apache
-  - Mysql
+  - MySQL
 
-## Configurasi
-### Apache Module
+## Configuration
+### Apache Modules
 - mod_rewrite
 - mod_deflate
 - mod_filter
@@ -106,4 +105,4 @@ Kami menggunakan [Figma](https://www.figma.com/file/KpSN9guhDFCmZuMlSfQWR6/Websi
 <br>
 <br>
 
-<p align="center"><i>Kelompok 3 &copy; 2023/2024</i></p>
+<p align="center"><i>Group 3 &copy; 2023/2024</i></p>
